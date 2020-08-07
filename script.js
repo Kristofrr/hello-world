@@ -8,16 +8,3 @@ document
       (window.innerHeight - 2) +
       "px; border: 1px solid #000000"
   );
-
-/*let video = $("#video");
-console.log("test");
-
-video.width() = $(window).innerWidth();
-
-$(window).resize(function() {
-   video.width() = $(window).innerWidth();
-
- $(window).resize(function() {
-   alert($(window).width);
- });
-*/

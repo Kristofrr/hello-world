@@ -9,11 +9,11 @@
       "px; border: 1px solid #000000"
   );*/
 
-$("#video").height() = $(window).innerHeight();
-$("#video").width() = $(window).innerWidth();
+let video = $("#video");
+
+video.height = $(window).innerHeight();
+video.width = $(window).innerWidth();
 
 $(window).resize(function() {
-    $("#video").css({right: parseInt(window.innerWidth/2),
-                      bottom: parseInt(window.innerHeight/2)
-                     });
-});
+   video.width = $(window).innerWidth();
+  video.height = $(window).innerHeight();

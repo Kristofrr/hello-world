@@ -1,4 +1,4 @@
-document
+/*document
   .getElementById("video")
   .setAttribute(
     "style",
@@ -8,3 +8,4 @@ document
       (window.innerHeight - 2) +
       "px; border: 1px solid #000000"
   );
+*/

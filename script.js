@@ -12,7 +12,7 @@
 let video = $("#video");
 console.log(video);
 
-video.width = $(window).innerWidth();
+video.width() = $(window).innerWidth();
 
 $(window).resize(function() {
-   video.width = $(window).innerWidth();
+   video.width() = $(window).innerWidth();

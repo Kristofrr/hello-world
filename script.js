@@ -9,8 +9,8 @@
       "px; border: 1px solid #000000"
   );*/
 
-$("#video").height() = window.innerHeight;
-$("#video").width() = window.innerWidth;
+$("#video").height() = $("window").innerHeight();
+$("#video").width() = $("window").innerWidth();
 
 $( window ).resize(function() {
     $('div.box').css({'right': parseInt(window.innerWidth/2),

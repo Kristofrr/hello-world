@@ -12,7 +12,7 @@
 $("#video").height() = $("window").innerHeight();
 $("#video").width() = $("window").innerWidth();
 
-$( window ).resize(function() {
+$("window").resize(function() {
     $('div.box').css({'right': parseInt(window.innerWidth/2),
                       'bottom': parseInt(window.innerHeight/2)
                      });

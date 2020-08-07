@@ -18,5 +18,5 @@ $(window).resize(function() {
    video.width() = $(window).innerWidth();
 */
  $(window).resize(function() {
-   alert($(window).width());
+   alert($(window).width);
  });

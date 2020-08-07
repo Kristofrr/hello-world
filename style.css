@@ -4,5 +4,8 @@ body {
 }
 
 #video {
+  top: 50%;
+  left: 50%;
+  width:100%
   transform: translateY(-50%);
 }

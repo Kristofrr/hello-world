@@ -12,9 +12,7 @@
 let video = $("#video");
 console.log(video);
 
-video.height = $(window).innerHeight();
 video.width = $(window).innerWidth();
 
 $(window).resize(function() {
    video.width = $(window).innerWidth();
-  video.height = $(window).innerHeight();

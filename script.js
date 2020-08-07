@@ -18,5 +18,5 @@ $(window).resize(function() {
    video.width() = $(window).innerWidth();
 */
  $(window).resize(function() {
-   $('body').prepend('<div style="color:white">' + $(window).width() + '</div>');
+   alert($window.width());
  });

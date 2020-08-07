@@ -10,6 +10,7 @@
   );*/
 
 let video = $("#video");
+console.log(video);
 
 video.height = $(window).innerHeight();
 video.width = $(window).innerWidth();

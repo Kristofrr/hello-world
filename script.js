@@ -9,7 +9,7 @@
       "px; border: 1px solid #000000"
   );*/
 /*
-let video = $("#video");
+*/let video = $("#video");/*
 console.log("test");
 
 video.width() = $(window).innerWidth();
@@ -18,5 +18,5 @@ $(window).resize(function() {
    video.width() = $(window).innerWidth();
 */
 $("window").resize(function() {
-  console.log("test1");
+    $('body').prepend('<div>' + $(window).width() + '</div>');
 })

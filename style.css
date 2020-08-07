@@ -2,3 +2,7 @@ body {
   font-family: sans-serif;
   background-color: black;
 }
+
+#video {
+  transform: translateY(-50%);
+}

@@ -7,8 +7,6 @@ if (localStorage.getItem("setup") === null) {
   localStorage.setItem("favIcon", favIcon);
   localStorage.setItem("setup", "false");
 } else {
-  document.getElementById("video").attributes.muted = "true";
-  document.getElementById("video").attributes.autoplay = "true";
   document.getElementById("title").innerHTML = localStorage.getItem("title");
   document.getElementById("favIcon").attributes.href = localStorage.getItem("favIcon");
 }

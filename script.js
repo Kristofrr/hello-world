@@ -3,12 +3,12 @@ if (localStorage.getItem("setup") === null) {
   document.getElementById("title").innerHTML = title;
   localStorage.setItem("title", title);
   let favIcon = prompt("What is the link to the desired favicon?", "https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico")
-  document.getElementById("favIcon").attributes.href = favIcon;
+  document.getElementById("favIcon").setAttribute("href", favIcon);
   localStorage.setItem("favIcon", favIcon);
   localStorage.setItem("setup", "false");
 } else {
   document.getElementById("title").innerHTML = localStorage.getItem("title");
-  document.getElementById("favIcon").attributes.href = localStorage.getItem("favIcon");
+  document.getElementById("favIcon").setAttribute("href", localStorage.getItem("favIcon"));
 }
 
 document
